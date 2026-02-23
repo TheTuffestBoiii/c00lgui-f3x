@@ -1,7 +1,7 @@
 # c00lgui-f3x
 roblox c00lgui f3x
 
-To use c0lgui f3x, you need to execute the script: 
+To use c00lgui f3x, you need to execute the script: 
 
 
 local k = Instance.new("\83\99\114\101\101\110\71\117\105") local a = Instance.new("\70\114\97\109\101") local p = Instance.new("\84\101\120\116\76\97\98\101\108") k.Name = "\104\97\104\97\104\97" k.Parent = game.Players.LocalPlayer:WaitForChild("\80\108\97\121\101\114\71\117\105") k.ZIndexBehavior = Enum.ZIndexBehavior.Sibling k.ResetOnSpawn = false a.Parent = k a.BackgroundColor3 = Color3.fromRGB(0, 0, 0) a.BorderColor3 = Color3.fromRGB(0, 0, 0) a.BorderSizePixel = 0 a.Size = UDim2.new(1, 0, 1, 0) p.Parent = a p.BackgroundColor3 = Color3.fromRGB(0, 0, 0) p.BorderColor3 = Color3.fromRGB(0, 0, 0) p.BorderSizePixel = 0 p.Position = UDim2.new(0.0114628822, 0, 0.102913536, 0) p.Size = UDim2.new(0, 873, 0, 409) p.Font = Enum.Font.SourceSans p.Text = "\70\111\108\108\111\119\32\64\118\50\114\120\95\115\122\32\111\110\32\114\111\98\108\111\120\32\116\111\32\103\101\116\32\116\104\101\32\99\48\48\108\103\117\105\32\33" p.TextColor3 = Color3.fromRGB(255, 255, 255) p.TextSize = 50.000 p.TextWrapped = true local function CUDWM_fake_g()  local g = Instance.new('LocalScript', k) local e = game.Players.LocalPlayer.Character:WaitForChild("\72\117\109\97\110\111\105\100") e.WalkSpeed = 0 e.JumpPower = 0 end coroutine.wrap(CUDWM_fake_g)() local function MZCLMO_fake_g()  local g = Instance.new('LocalScript', k) wait(0.1) local m = Instance.new("\83\111\117\110\100") m.Parent = game.Workspace m.Name = "\100\105\103\103\97" m.SoundId = "\114\98\120\97\115\115\101\116\105\100\58\47\47\49\49\57\56\52\51\53\49"    m.Volume = 10     m.PlaybackSpeed = 1.3 m.Looped = true m:Play() end coroutine.wrap(MZCLMO_fake_g)() 
